@@ -1,0 +1,12 @@
+.qodo
+.venv/
+venv/
+*.egg-info/
+__pycache__/
+dist/
+build/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

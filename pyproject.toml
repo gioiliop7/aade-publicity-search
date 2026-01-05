@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aade-publicity-search"
+version = "1.0.0"
+description = "AADE Public AFM lookup (VAT info) via SOAP"
+authors = [{ name="Giorgos Iliopoulos" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx",
+    "xmltodict"
+]
+
+[project.urls]
+Homepage = "https://github.com/gioiliop7/aade-publicity-search"

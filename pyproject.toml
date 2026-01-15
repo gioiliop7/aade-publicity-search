@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aade-publicity-search"
-version = "1.0.0"
+version = "1.0.1"
 description = "AADE Public AFM lookup (VAT info) via SOAP"
 authors = [{ name="Giorgos Iliopoulos" }]
 readme = "README.md"
